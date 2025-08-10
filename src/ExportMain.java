@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.nio.file.Paths;
 
 public class ExportMain {
@@ -19,6 +20,8 @@ public class ExportMain {
             } catch (Exception ioEx) {
                 ioEx.printStackTrace();
             }
+        }catch(IOException ioEx1) {
+            ioEx1.printStackTrace();
         }
 
 
